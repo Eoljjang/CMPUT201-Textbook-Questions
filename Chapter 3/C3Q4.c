@@ -12,3 +12,8 @@ int main(void){
     
     
 }
+
+/* Problem: 
+1. Write a program that takes input for a phone number in the form (xxx) xxx-xxxx
+2. Output it as xxx.xxx.xxxx
+*/
