@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Added support for 2-digit negative numbers.
 
 int main(void){
     int input;
