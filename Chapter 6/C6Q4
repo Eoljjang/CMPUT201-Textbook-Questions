@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void){
+    int input = 1;
+    while (input != 0){
+        printf("Enter value of trade: ");
+        scanf("%d", &input);
+        // Calculate commission amount (12%)
+        input = 0.12*input;
+        printf("Commission: %d\n", input);
+    }
+    printf("Done trading.\n");
+    
+    return 0;
+}
